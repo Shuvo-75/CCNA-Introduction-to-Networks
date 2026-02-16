@@ -13,3 +13,4 @@ To initialize the device and set the identity, the following commands were used 
 enable
 configure terminal
 hostname Edge_Router_Backup
+exit 
