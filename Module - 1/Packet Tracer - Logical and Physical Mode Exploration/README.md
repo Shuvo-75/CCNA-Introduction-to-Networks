@@ -1,24 +1,15 @@
-\# Lab: Logical and Physical Mode Exploration
+# Lab: Logical and Physical Mode Exploration
 
+## Objective
+Investigate the Packet Tracer interface, navigate the physical wiring closet, and establish connectivity between end devices and networking hardware.
 
+## Topology
+![Network Topology](topology.png)
 
-\*\*Objective:\*\* Investigate the bottom toolbar, devices in a wiring closet, and connect end devices to networking devices.
+## Configuration Steps
+To initialize the device and set the identity, the following commands were used on the Edge Router:
 
-
-
-\*\*Topology:\*\*
-
-!\[Network Topology](topology.png)
-
-
-
-\*\*Key Commands Used:\*\*
-
-```bash
-
+```ios
 enable
-
 configure terminal
-
-hostname Edge\_Router\_Backup
-
+hostname Edge_Router_Backup
